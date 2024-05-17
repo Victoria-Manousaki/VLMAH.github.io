@@ -152,21 +152,18 @@ for Effective Action Anticipation">
     
         
   
-            <img src="./static/images/probdef.png"
+            <img src="./static/images/problem.png"
                  class="interpolation-image"
                  alt="Interpolate start reference image."/>
     
 		<div class="content has-text-justified">
           <p>
-           We consider the problem of action anticipation in
-			untrimmed videos of procedural activities. At a certain moment
-			in time (decision point), the proposed framework (VLMAH) an-
-			ticipates the action (i.e., the unobserved action “take screw”) that
-			is most likely to be performed after some anticipation time Tant
-			(depicted with orange color). This is performed on the basis of the
-			history of all past actions up to the decision point (depicted with
-			purple) which is modeled by integrating visual input regarding the
-			immediate past and a linguistic description of the distant past.
+           We introduce a new problem, that of anticipating object state changes in videos of
+			procedural activities. At a decision point which is the start time of the next, yet unobserved
+			action, the goal is to predict whether there will be a state change related to the next active
+			object and, if yes, estimate its type. An object state change is defined as the transition from
+			a pre-state (initial) to a post-state (final) that occurs at the Point of No Return (PNR) time
+			during a state-modifying action.
           </p>
       </div>
       </div>
@@ -227,34 +224,6 @@ The final format also includes two special labels (START, END) that indicate the
 
 
 
-<section class="section">
-  <div class="container is-max-desktop">
-
-    <div class="columns is-centered">
-
-
-        <!-- Visual Effects. -->
-
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Video</h2>
-        <div class="content has-text-justified">
-          <p>
-           
-          </p>
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/id_26.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-      </div>
-	  </div>
-      <!--/ Visual Effects. -->
-   
-
-
-  </div>
-</section>
 
 
 
@@ -264,11 +233,11 @@ The final format also includes two special labels (START, END) that indicate the
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{vlmah2023anticipation,
-  author    = {Victoria Manousaki, Konstantinos Bacharidis, Konstantinos Papoutsakis, and Antonis Argyros},
-  title     = {VLMAH: Visual-Linguistic Modeling of Action History for Effective Action Anticipation},
-  journal   = {ACVR Workshop - ICCV},
-  year      = {2023},
+    <pre><code>@article{under-review,
+  author    = {},
+  title     = {Anticipating Object State Changes},
+  journal   = {Under-Review},
+  year      = {2024},
 }</code></pre>
   </div>
 </section>
